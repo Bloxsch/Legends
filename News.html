@@ -1,0 +1,135 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="favicon.ico" />
+    <link rel="stylesheet" href="News-Style.css" />
+  </head>
+  <body>
+    <div id="TopBar">
+      <center>
+        <div class="row">
+          
+          <div class="socials-container">
+            <div class="TopBar-Socials">
+              <ul class="socials">
+                <li class="topbar-links">
+                  <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    class="click-area"
+                  >
+                    <div style="padding: 5px" class="centered-image">
+                      <img
+                        src="img/facebook.png"
+                        alt="facebook"
+                        class="smaller"
+                      />
+                    </div>
+                  </a>
+                </li>
+                <li class="topbar-links">
+                  <a
+                    href="https://youtube.com"
+                    target="_blank"
+                    class="click-area"
+                  >
+                    <div style="padding: 5px" class="centered-image">
+                      <img src="img/youtube.png" alt="youtube" class="smaller" />
+                    </div>
+                  </a>
+                </li>
+                <li class="topbar-links">
+                  <a
+                    href="https://tiktok.com"
+                    target="_blank"
+                    class="click-area"
+                  >
+                    <div style="padding: 5px" class="centered-image">
+                      <img src="img/tik-tok.png" alt="youtube" class="smaller" />
+                    </div>
+                  </a>
+                </li>
+                <li class="topbar-links">
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    class="click-area"
+                  >
+                    <div style="padding: 5px" class="centered-image">
+                      <img src="img/twitter.png" alt="youtube" class="smaller" />
+                    </div>
+                  </a>
+                </li>
+                <li class="topbar-links">
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    class="click-area"
+                  >
+                    <div style="padding: 5px" class="centered-image">
+                      <img src="img/instagram.png" alt="youtube" class="smaller" />
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </center>
+    </div>
+      <div class="header" id="myHeader">
+        <div class="header-row">
+          <div class="header-logo">
+            <div class="logo-container">
+              <img src="img/Header-Logo.webp" alt="" class="logo" style="height: 55px">
+            </div>
+          </div>
+          <div class="header-items">
+            <div class="items-container">
+              <ul class="clickable-items">
+                <li class="items"><a href="Index.html" class="taketopage" id="Home">HOME</a></li>
+                <li class="items"><a href="News.html" class="taketopage" id="News">NEWS</a></li>
+                <li class="items"><a href="#" class="taketopage" id="Heroes">HEROES</a></li>
+                <li class="items"><a href="#" class="taketopage" id="Patch">PATCH</a></li>
+                <li class="items"><a href="#" class="taketopage" id="Builds">BUILDS</a></li>
+              </ul>
+            </div>
+          </div>
+          <div class="header-download">
+            <div class="download-container">
+              <div class="download"></div>
+            </div>
+          </div>
+        </div>
+      <script>
+      window.onscroll = function () {
+        myFunction();
+      };
+
+      var header = document.getElementById("myHeader");
+      var sticky = header.offsetTop;
+
+      function myFunction() {
+        if (window.pageYOffset > sticky) {
+          header.classList.add("sticky");
+        } else {
+          header.classList.remove("sticky");
+        }
+      }
+      </script>
+    </div>
+    <div id="Content">
+      <div class="banner">
+        <img src="img\400-Background.png" alt="" class="Chou">
+      </div>
+      <div id="News-Section">
+        <div class="news">
+
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

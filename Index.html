@@ -1,0 +1,256 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Home</title>
+    <link rel="shortcut icon" type="image/x-icon" href="img/favicon.ico" />
+    <link rel="stylesheet" href="Home-Style.css" />
+  </head>
+  <body>
+    <!-- SOCIALS TOPBAR -->
+
+    <div id="TopBar">
+      <center>
+        <div class="row">
+          <div class="socials-container">
+            <div class="TopBar-Socials">
+              <ul class="socials">
+                <li class="topbar-links">
+                  <a
+                    href="https://facebook.com"
+                    target="_blank"
+                    class="click-area"
+                  >
+                    <div style="padding: 5px" class="centered-image">
+                      <img
+                        src="img/facebook.png"
+                        alt="facebook"
+                        class="smaller"
+                      />
+                    </div>
+                  </a>
+                </li>
+                <li class="topbar-links">
+                  <a
+                    href="https://youtube.com"
+                    target="_blank"
+                    class="click-area"
+                  >
+                    <div style="padding: 5px" class="centered-image">
+                      <img
+                        src="img/youtube.png"
+                        alt="youtube"
+                        class="smaller"
+                      />
+                    </div>
+                  </a>
+                </li>
+                <li class="topbar-links">
+                  <a
+                    href="https://tiktok.com"
+                    target="_blank"
+                    class="click-area"
+                  >
+                    <div style="padding: 5px" class="centered-image">
+                      <img
+                        src="img/tik-tok.png"
+                        alt="youtube"
+                        class="smaller"
+                      />
+                    </div>
+                  </a>
+                </li>
+                <li class="topbar-links">
+                  <a
+                    href="https://twitter.com"
+                    target="_blank"
+                    class="click-area"
+                  >
+                    <div style="padding: 5px" class="centered-image">
+                      <img
+                        src="img/twitter.png"
+                        alt="youtube"
+                        class="smaller"
+                      />
+                    </div>
+                  </a>
+                </li>
+                <li class="topbar-links">
+                  <a
+                    href="https://instagram.com"
+                    target="_blank"
+                    class="click-area"
+                  >
+                    <div style="padding: 5px" class="centered-image">
+                      <img
+                        src="img/instagram.png"
+                        alt="youtube"
+                        class="smaller"
+                      />
+                    </div>
+                  </a>
+                </li>
+              </ul>
+            </div>
+          </div>
+        </div>
+      </center>
+    </div>
+
+    <!-- STICKY HEADER // LOGO - TABS - DOWNLOAD -->
+
+    <div class="header" id="myHeader">
+      <div class="header-container">
+        <div class="header-logo">
+          <div class="logo-container">
+            <img
+              src="img/Header-Logo.webp"
+              alt=""
+              class="logo"
+              style="height: 55px"
+            />
+          </div>
+        </div>
+        <div class="header-items">
+          <div class="items-container">
+            <ul class="clickable-items">
+              <li class="items">
+                <a href="Home.html" class="taketopage" id="Home">HOME</a>
+              </li>
+              <li class="items">
+                <a href="News.html" class="taketopage" id="News">NEWS</a>
+              </li>
+              <li class="items">
+                <a href="#" class="taketopage" id="Heroes">HEROES</a>
+              </li>
+              <li class="items">
+                <a href="#" class="taketopage" id="Guides">GUIDES</a>
+              </li>
+              <li class="items">
+                <a href="#" class="taketopage" id="Recharge">RECHARGE</a>
+              </li>
+            </ul>
+          </div>
+        </div>
+        <div class="header-download">
+          <a
+            href="https://play.google.com/store/apps/details?id=com.mobile.legends&hl=en&gl=US"
+            target="_blank"
+            class="download-link"
+          >
+            <div class="download">
+              <div class="playnow">
+                <span>DOWNLOAD</span>
+              </div>
+            </div>
+          </a>
+        </div>
+      </div>
+      <script>
+        window.onscroll = function () {
+          myFunction();
+        };
+
+        var header = document.getElementById("myHeader");
+        var sticky = header.offsetTop;
+
+        function myFunction() {
+          if (window.pageYOffset > sticky) {
+            header.classList.add("sticky");
+          } else {
+            header.classList.remove("sticky");
+          }
+        }
+      </script>
+    </div>
+
+    <!-- GRANGER -->
+
+    <div id="Content">
+      <div class="banner"></div>
+    </div>
+
+    <!-- NEWS -->
+
+    <div id="News-Section">
+      <div class="news">
+        <div class="news-heading">
+          <img src="img/Highres-News.png" alt="" class="news-header" />
+        </div>
+        <div class="news-container">
+          <a href="#"
+            ><div class="mostrecent">
+              <img
+                src="img/Metashift.jpg"
+                alt="September-Starlight"
+                class="starlight"
+              />
+              <div class="aboutnews">
+                <div class="issuedate">
+                  <span class="date">08/26/23<b Class="Type"> • EVENT</b></span>
+                </div>
+                <div class="newscontent">
+                  <span class="news-text"
+                    >Neobeasts Series Skins<br />| Fredrinn & Lylia</span
+                  >
+                </div>
+              </div>
+            </div></a
+          >
+          <a href="#"
+            ><div class="midrecent">
+              <img
+                src="img/September starlight.jpg"
+                alt="Metashift"
+                class="metashift"
+              />
+              <div class="aboutnews">
+                <div class="issuedate">
+                  <span class="date"
+                    >08/24/23<b Class="Type"> • STARLIGHT</b></span
+                  >
+                </div>
+                <div class="newscontent">
+                  <span class="news-text"
+                    >September StarLight Perks<br />| Alpha "Star Enforcer"
+                  </span>
+                </div>
+              </div>
+            </div></a
+          >
+          <a href="#"
+            ><div class="mostdated">
+              <img src="img/outlaw.jpg" alt="Ixia" class="ixia" />
+              <div class="aboutnews">
+                <div class="issuedate">
+                  <span class="date">07/01/23<b Class="Type"> • HERO</b></span>
+                </div>
+                <div class="newscontent">
+                  <span class="news-text">Way of the Outlaw<br />| Ixia</span>
+                </div>
+              </div>
+            </div></a
+          >
+        </div>
+      </div>
+    </div>
+
+    <!-- SEASON 29 -->
+
+    <div id="Season">
+      <div class="season-container">
+        <div class="leo">
+          <img src="img/rawsperobo.png" alt="" />
+        </div>
+        <div class="next-container">
+          <a href="#" id="learnings">
+            <div id="learn-more">
+              <span>LEARN MORE</span>
+            </div>
+          </a>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>

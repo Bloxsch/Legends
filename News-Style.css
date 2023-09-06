@@ -1,0 +1,182 @@
+@import url("https://fonts.googleapis.com/css2?family=Poppins:wght@200;300&family=Roboto:wght@100;300;400;500;700;900&display=swap");
+
+body {
+  margin: 0;
+  padding: 0;
+  background-color: #ffffff;
+}
+
+#TopBar {
+  position: relative;
+  height: 45px;
+  width: 100%;
+  background-color: #f4f1f1;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.row {
+  display: flex;
+  align-items: center;
+  width: 1270px;
+  height: 90px;
+  justify-content: center;
+}
+
+.socials-container {
+  height: 100%;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+.socials {
+  list-style: none;
+  display: flex;
+}
+
+.topbar-links {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 50px;
+  height: 30px;
+  transition: background-color 0.3s;
+}
+
+.topbar-links:not(:last-child) {
+  border-right: 1px solid #e6e4e4;
+}
+
+.topbar-links:hover {
+  background-color: #e6e4e4;
+}
+
+.click-area {
+  width: 100%;
+  height: auto;
+  justify-content: center;
+}
+
+.centered-image {
+  display: flex;
+  justify-content: center;
+  align-self: center;
+}
+
+.smaller {
+  width: 13px;
+  height: 13px;
+}
+
+.header {
+  font-family: "Poppins", "Roboto", sans-serif;
+  position: relative;
+  height: 95px;
+  width: 100%;
+  background-color: #ffffff;
+  display: flex;
+  justify-content: start;
+  opacity: 0.9;
+}
+
+.header-row {
+  height: 95px;
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  margin-left: 6.5%;
+
+}
+
+.header-logo {
+  display: flex;
+  align-items: center;
+  width: 220px;
+  height: 100%;
+  justify-content: center;
+}
+
+.logo-container {
+  position: relative;
+  display: flex;
+}
+
+.header-items {
+  width: 500px;
+  height: 100%;
+  display: flex;
+  justify-content: center;
+}
+
+.items-container {
+  margin-left: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+.clickable-items {
+  display: flex;
+  justify-self: center;
+}
+
+.items {
+  margin: 20px;
+  list-style: none;
+}
+
+#News {
+  color: rgb(29, 29, 29);
+  border-bottom: 3px solid rgb(29, 29, 29);
+}
+
+.taketopage {
+  color: rgb(145, 145, 145);
+  text-decoration: none;
+  font-weight: bold;
+  transition: color 0.3s;
+  transition: border-bottom 0.1s;
+  display: inline-block;
+  height: 30px;
+}
+
+.taketopage:hover {
+  color: rgb(29, 29, 29);
+  text-decoration: none;
+  border-bottom: 3px solid rgb(29, 29, 29);
+}
+
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
+
+.sticky + #Content .banner .Chou {
+  padding-top: 95px;
+}
+
+.Chou {
+  position: relative;
+  z-index: -1;
+  width: 100%;
+  height: 100%;
+}
+
+#News-Section {
+  font-family: "Poppins", sans-serif;
+  position: relative;
+  top: -4px;
+  height: 300px;
+  width: 100%;
+  background-color: #f5f5f5;
+}
+
+.downlaod {
+  width: 160px;
+  height: 80px;
+  background: #a84909;
+  border-radius: 40px;
+}
+
